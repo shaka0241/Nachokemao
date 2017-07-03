@@ -1,0 +1,17 @@
+.-  Realizar una pagina sobre las 4 noticias principales de los temas siguientes:
+
+.-  1era noticia deber sobre un cantante y aparecera una imagen del mismo con un video musical.
+
+.-  2da noticia debe ser la descripcion de electrodomestico y una tabla donde aparezcan marcas y precios (minimo 2 marcas).
+
+.-  3ra noticia es libre.
+
+.-  4ta no es una noticia como tal, debe ser un fomulario sencillo (libre).
+
+
+Usar estilos, colores, fuentes. Desde un archivo externo css.
+
+
+Recuerden las buenas practicas.
+
+Saludos
