@@ -46,10 +46,25 @@ header {
 
 /* Estilo del header */
 
+#chat {
+    position: fixed;
+    height: 40px;
+    width: 250px;
+    bottom: 0;
+    right: 20px;
+    background: magenta;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    cursor: pointer;
+}
+
 header {
     width: 1000px;
     height: 120px;
-    
     position: relative;
     margin: 20px auto;
 }
@@ -197,6 +212,10 @@ aside#izq ul li {
     list-style: square;
     list-style-position: inside;
     list-style-image:url(../img/lista.png);
+}
+
+aside#izq ul li a {
+    text-decoration: none;
 }
 
 aside#der{
