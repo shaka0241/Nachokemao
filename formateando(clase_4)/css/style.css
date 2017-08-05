@@ -1,0 +1,148 @@
+
+/* Formateamos el documento */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilo al header */
+
+header {
+    width: 1000px;
+    height: 120px;
+    background: #444;
+    position: relative;
+    margin:20px auto;
+    
+}
+
+#logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 60px;
+    background: #ccc;
+ }
+
+.redes {
+    width: 42px;
+    height: 42px;
+    background: #000;
+    border-radius: 100%;
+    position: absolute;
+}
+
+#icono1 {
+    top:42px;
+    right: 120px;
+}
+
+#icono2 {
+    top:42px;
+    right: 71px;
+}
+
+#icono3 {
+    top:42px;
+    right: 19px;
+}
+
+/* Estilo a la barra de navegacion */
+
+
+nav {
+    width: 1000px;
+    height: 48px;
+    background: #aaa;
+    position: relative;
+    margin: auto;
+}
+
+.botones {
+    float: left;
+    width: 196px;
+    height: 48px;
+    background: #333;
+    margin: 0 2px;
+}
+
+/* Estilo al top */
+
+#top {
+    position: relative;
+    width: 1000px;
+    height: 192px;
+    
+    margin: 20px auto;
+}
+
+#top ul li {
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: black;
+    margin-right: 10px;
+}
+
+#top ul {
+    width: 1010px;
+    height: 192px;
+   
+}
+
+/* Estilo al section */
+
+section {
+    width: 1000px;
+    height: 453px;
+    background: #aaa;
+    position: relative;
+    margin: auto;
+}
+
+aside#izq {
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 200px;
+    height: 453px;
+    background: #333;
+}
+
+article {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453px;
+    background: #666;
+}
+
+aside#der {
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 200px;
+    height: 453px;
+    background: #333;
+}
+
+/* Estilo al footer */
+
+footer {
+    width: 1000px;
+    height: 70px;
+    background: #888;
+    position: relative;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
