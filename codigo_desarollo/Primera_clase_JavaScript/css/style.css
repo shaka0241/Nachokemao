@@ -1,0 +1,22 @@
+.circulo {
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+#circulo_rojo {
+    background-color: red;
+    
+}
+
+#circulo_azul {
+    background-color: blue;
+    
+}
+
+#circulo_verde {
+    background-color: green;
+    
+}
