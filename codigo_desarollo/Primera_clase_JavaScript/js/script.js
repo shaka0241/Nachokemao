@@ -84,7 +84,76 @@ tweets.push("Vuelta al trabajo");
 tweets.splice(1,0,"Hola");
 alert(tweets[1]);
 
+
+
+// Ejemplo de condicionales if 
+
+var hora = 22;
+
+var saludo="";
+
+if (hora<20){
+    saludo="Buenos dias";
+}
+else {
+    saludo="Buenas noches";
+}
+
+alert(saludo);
+
+// estructuras selectivas multiples
+
+var hora = 4;
+
+var saludo="";
+
+    if (hora<12){
+        saludo = "buenos dias";
+    }
+
+        else if (hora<18) {
+            saludo = "buenas tardes";
+            }
+
+                else{
+                    saludo = "buenas noches"                
+                }
+alert(saludo);
+
+
+
+
+// bucles
+
+for(var i=0;i<5;i++) {
+    alert(i);
+}
+
+
+
+for(var i=5;i>0;i--) {
+    alert(i);
+}
+
+alert("ha terminado el bucle")
+
 */
+
+// Validacion simple mediante elemento de entrada input.
+
+document.getElementById("miboton").onclick= function(){
+    var palabraMagica = "abracadabra";
+    var textoUsuario;
+    
+    textoUsuario = document.getElementById("entradaUsuario").value;
+        if(textoUsuario == palabraMagica) {
+            alert("Podeis entrar");
+        }
+            else{
+                alert("Fuera de aqui!");
+            }
+}
+
 
 
 
